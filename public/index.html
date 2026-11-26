@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enterprise Cloud Service Catalog</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #1e293b);
+      color: #f8fafc;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      border: 1px solid #334155;
+      border-radius: 14px;
+      padding: 40px 32px;
+      max-width: 560px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+    }
+
+    h1 {
+      font-size: 1.9rem;
+      margin-bottom: 12px;
+      color: #38bdf8;
+    }
+
+    .subtitle {
+      font-size: 0.95rem;
+      color: #94a3b8;
+      margin-bottom: 28px;
+    }
+
+    .student-info {
+      background: #0f172a;
+      border: 1px solid #334155;
+      border-radius: 10px;
+      padding: 16px;
+      margin-bottom: 28px;
+    }
+
+    .student-info p {
+      font-size: 1.05rem;
+      margin: 6px 0;
+      color: #e2e8f0;
+    }
+
+    .student-info span {
+      color: #38bdf8;
+      font-weight: 600;
+    }
+
+    .actions {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+      transition: transform 0.15s ease, opacity 0.15s ease;
+    }
+
+    .btn-primary {
+      background: #0284c7;
+      color: #ffffff;
+    }
+
+    .btn-secondary {
+      background: #10b981;
+      color: #0f172a;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      opacity: 0.92;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Enterprise Cloud Service Catalog</h1>
+    <p class="subtitle">Node.js &amp; Express PaaS Web Application</p>
+
+    <section class="student-info">
+      <p><span>Developer:</span> Joshua Kumar J</p>
+      <p><span>Roll Number:</span> 2648033</p>
+    </section>
+
+    <div class="actions">
+      <a href="/api/services" class="btn btn-primary">View Cloud Services (/api/services)</a>
+      <a href="/api/status" class="btn btn-secondary">System Status (/api/status)</a>
+    </div>
+  </main>
+</body>
+</html>
